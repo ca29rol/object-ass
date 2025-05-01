@@ -24,12 +24,13 @@ completeTask(task)
     task.completeTask("Buy groceries");
     taskList.listTasks();
 
-
+// creat an arr with name,score attributes
+// calculate the sum the get average
 const student={
     names:'John',
     score:59,
 }
-getAverage(){
+getAverage();{
     return this.score.reduce(a,b=>a+b,0)/this.score.length();
 }
 
@@ -44,7 +45,10 @@ console.log(getAverage(scoreList));
 
 
 
-
+// creat a shopingcart
+// calculate total price
+// add some item to the cart
+// calculate total price
 const shopCart={
     price:[{item:"slasher",price:3000},{item:"pangaknife",price:3500},{item:"laptop",price:35000}]
 }
@@ -63,14 +67,15 @@ shopCart.price=600
 console.log(shopCart.item);
 console.log(shopCart.price);
 
-// shopCart.getSum=price.reduce((a,b)=>a+b)
-// console.log({shopCart});
+shopCart.getSum=price.reduce((a,b)=>a+b)
+console.log({shopCart});
 
 
 
 
 
-
+// creat a movie attributes
+// loop  through the arr
 function Movie(year,title, rating){
 this.year = year
 this.title = title
